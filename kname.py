@@ -1,5 +1,4 @@
 from stanfordkarel import *
-from time import sleep
 
 
 class ktools:
@@ -69,13 +68,94 @@ class ktools:
     self.m()
     self.m()
 
-  def e(self):
+  def y(self):
+    self.tl()
+    self.put2()
+    self.m()
+    self.put()
+    self.tl()
+    self.m()
+    self.tr()
+    self.m()
+    self.put()
+    self.tr()
+    self.m()
+    self.m()
+    self.put()
+    self.tl()
+    self.m()
+    self.tr()
+    self.m()
+    self.put()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.put()
     pass
 
+  def M(self):
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.tr()
+    self.m()
+    self.put()
+    self.m()
+    self.tl()
+    self.m()
+    self.put()
+    self.m()
+    self.tl()
+    self.m()
+    self.put()
+    self.m()
+    self.tr()
+    self.m()
+    self.tr()
+    self.put5()
+    self.tl()
+    self.m()
+    self.m()
+    pass
+    
+    
+    
+  
   def l(self):
+    self.tl()
+    self.put5()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
+    self.tl()
+    self.m()
+    self.put2()
+    self.m()
+    self.m()
     pass
 
   def o(self):
+    self.tl()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put2()
+    self.m()
+    self.tr()
+    self.put5()
+    self.tr()
+    self.m()
+    self.put2()
+    self.ta()
+    self.m()
+    self.m()
+    self.m()
+    self.m()
     pass
 
   def fic(self) -> bool:
@@ -111,25 +191,17 @@ class ktools:
         if self.ric():
           self.tr()
           self.m()
+    
     pass
 
 def main():
     """Karel code goes here!"""
     kt = ktools()
-    kt.m()
-    kt.tl()
-    kt.m()
-    kt.mazemove()
-    sleep(3)
-
-    kt.m()
-    kt.m()
-    kt.m()
-    kt.m()
-    kt.tl()
-    kt.m()
-    
-    
+    kt.M()
+    kt.o()
+    kt.l()
+    kt.l()
+    kt.y()
     pass
 
 if __name__ == "__main__":
